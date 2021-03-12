@@ -3,6 +3,9 @@
     padding: 14px;
 }
 
+.row{
+    margin: 0px, -6px;    
+}
 
 [class*= "col-"]{
 
