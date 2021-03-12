@@ -35,8 +35,7 @@
 
 [class*= "col-"]{
     position: relative;
-    float: left;
-    padding: 60px 0px;    
+    float: left;  
 }
 
 
