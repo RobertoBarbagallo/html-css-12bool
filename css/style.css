@@ -1,0 +1,11 @@
+
+.container{
+    padding: 14px;
+}
+
+
+[class*= "col-"]{
+    padding: 60px 0px;  
+    background-color: #FFC0CB;  
+    border: 1px solid black;
+}
