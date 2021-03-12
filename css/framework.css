@@ -12,15 +12,12 @@
     max-width: 920px;
     width: 100%;
     margin: 0 auto;
-    /* padding: 14px; */
+  
 }
 
 
 /* Righe */
 
-.row{
-    margin: 0 -8px;
-}
 
 .row::after{
     content: "";
