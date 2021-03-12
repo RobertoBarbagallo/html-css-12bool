@@ -13,7 +13,10 @@
     padding: 6px;
 }
 
-
+.row .col-6 .row >*{
+    padding: 0px;
+    border: none;
+}
 
 .row .col-6 .row .card{
     background-color: #F07F80;
@@ -24,5 +27,13 @@
 .card{
     background-color: #FFC0CB;  
     height: 120px;
+    position: relative;
+}
+
+h4{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
 }
