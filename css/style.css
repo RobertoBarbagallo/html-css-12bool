@@ -3,9 +3,26 @@
     padding: 14px;
 }
 
+.row{
+    
+}
 
 [class*= "col-"]{
-    padding: 60px 0px;  
-    background-color: #FFC0CB;  
+
     border: 1px solid black;
+    padding: 6px;
+}
+
+
+
+.row .col-6 .row .card{
+    background-color: #F07F80;
+    border: 1px solid white;
+
+}
+
+.card{
+    background-color: #FFC0CB;  
+    height: 120px;
+    text-align: center;
 }
